@@ -1,0 +1,10 @@
+package main;
+
+class Rectangle extends Shape {
+	protected int x = 10, y = 20;
+	private int width, height;
+	
+	public void draw() {
+		System.out.println("Rectangle Draw");
+	}
+}

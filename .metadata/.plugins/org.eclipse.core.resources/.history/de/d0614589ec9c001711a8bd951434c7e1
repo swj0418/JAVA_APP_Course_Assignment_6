@@ -1,0 +1,49 @@
+package main;
+
+class Shape {
+	protected int x, y;
+  	public void draw() {
+		System.out.println("Shape Draw");
+	}
+}
+
+class Rectangle extends Shape {
+	private int width, height;
+	
+	Rectangle()
+	{
+		super.x = width;
+		super.y = height;
+	}
+	
+	public void draw() {
+		System.out.println("Rectangle Draw");
+	}
+}
+  
+class Triangle extends Shape {
+	private int base, height;
+	
+	Triangle()
+	{
+		super.x = base;
+		super.y = height;
+	}
+	
+  	public void draw() {
+		System.out.println("Triangle Draw");
+	}
+}
+  
+class Circle extends Shape {
+	private int radius;
+	
+	Circle()
+	{
+		
+	}
+  
+	public void draw() {
+		System.out.println("Circle Draw");
+	}
+}

@@ -1,0 +1,20 @@
+package main;
+
+public class ShapeTest_2 {
+	
+  	public static void printLocation(Shape s) {
+		System.out.println("x=" + s.x + " y=" + s.y);
+	}
+  	
+  	public static void main(String arg[]) {
+  		
+  		Rectangle s1 = new Rectangle(10, 10);
+		Triangle s2 = new Triangle(20, 50);
+		Circle s3 = new Circle(100);
+  
+		printLocation(s1);
+		printLocation(s2);
+		printLocation(s3);
+		
+	}
+}
